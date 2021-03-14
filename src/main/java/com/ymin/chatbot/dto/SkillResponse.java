@@ -223,7 +223,7 @@ public class SkillResponse {
     public static SkillResponse 중간문_성공_2014(){
         SkillResponse skillResponse = new SkillResponse();
         skillResponse.makeSimpleImage("https://postfiles.pstatic.net/MjAyMTAyMThfODYg/MDAxNjEzNjU2NzIwNzU4.uCJMdjiQxZv1AXxViQRylBr4YeHrLBaiU5MoaSIiCdIg.8Ee4hCyW87Pl8YLJrLPvXZdYpE31H2bAezVvMP-3Iz4g.JPEG.arasarah/2014_%EC%82%AC%EB%AC%B4%EC%8B%A4_%EB%B3%B5%EB%8F%84.JPG?type=w773","이미지 에러");
-        skillResponse.makeSimpleText("주로 직원들이 이용하는 사무실 복도는 연습실과는 다른 분위기를 풍기고 있었다. 복도 벽면엔 우리 회사를 대표하는 사람들의 사진이 걸려 있었다. 대표실에서 찍은 대표의 사진, 대표 듀오 엔젤의 사진, 그리고 회사 워크샵을 갔을 때 대표와 연습생들이 함께 찍은 사진까지.\n" +
+        skillResponse.makeSimpleText("[사무실 복도]\n\n주로 직원들이 이용하는 사무실 복도는 연습실과는 다른 분위기를 풍기고 있었다. 복도 벽면엔 우리 회사를 대표하는 사람들의 사진이 걸려 있었다. 대표실에서 찍은 대표의 사진, 대표 듀오 엔젤의 사진, 그리고 회사 워크샵을 갔을 때 대표와 연습생들이 함께 찍은 사진까지.\n" +
                 "\n" +
                 "깜깜한 복도를 걸으며 다음 행선지를 고민했다. 해가 뜨기 전, 어서 숨겨진 비밀을 찾아야 하니까.\n\n어디로 갈까? ");
         skillResponse.addQuickReplies("사진을 확인한다", 사무실_복도_사진_2014 );
@@ -455,7 +455,7 @@ public class SkillResponse {
     public static SkillResponse 중간문_성공_2021(){
         SkillResponse skillResponse = new SkillResponse();
         skillResponse.makeSimpleImage("https://postfiles.pstatic.net/MjAyMTAyMThfMjIz/MDAxNjEzNjU2NzMzNjU4.AguAqQImVuZiP1qFDZ5VsNG6HGYQueR3mEjagixr664g.e58Uf5koL6Nlw5szoiXTTPuJDuBRRAtYKccj9uktK3Ug.JPEG.arasarah/2021_%EC%82%AC%EB%AC%B4%EC%8B%A4_%EB%B3%B5%EB%8F%84.JPG?type=w773","이미지 에러");
-        skillResponse.makeSimpleText("주로 직원들이 이용하는 사무실 복도는 연습실과는 다른 분위기를 풍기고 있었다. 복도 벽면엔 우리 회사를 대표하는 사람들의 사진이 걸려 있었다. 대표실에서 찍은 대표의 사진, 대표 듀오 엔젤의 사진, 그리고 회사 워크샵을 갔을 때 대표와 연습생들이 함께 찍은 사진까지.\n" +
+        skillResponse.makeSimpleText("[사무실 복도]\n\n주로 직원들이 이용하는 사무실 복도는 연습실과는 다른 분위기를 풍기고 있었다. 복도 벽면엔 우리 회사를 대표하는 사람들의 사진이 걸려 있었다. 대표실에서 찍은 대표의 사진, 대표 듀오 엔젤의 사진, 그리고 회사 워크샵을 갔을 때 대표와 연습생들이 함께 찍은 사진까지.\n" +
                 "\n" +
                 "깜깜한 복도를 걸으며 다음 행선지를 고민했다. 해가 뜨기 전, 어서 숨겨진 비밀을 찾아야 하니까. \n\n어디로 갈까?");
         skillResponse.addQuickReplies("사진을 확인한다", 사무실_복도_사진_2021 );
