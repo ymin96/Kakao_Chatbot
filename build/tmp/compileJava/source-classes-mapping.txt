@@ -18,11 +18,11 @@ com/ymin/chatbot/dto/Skill.java
  com.ymin.chatbot.dto.Skill
  com.ymin.chatbot.dto.Skill$Intent
  com.ymin.chatbot.dto.Skill$UserRequest
-com/ymin/chatbot/controller/LocationController.java
- com.ymin.chatbot.controller.LocationController
+com/ymin/chatbot/controller/ItemController.java
+ com.ymin.chatbot.controller.ItemController
 com/ymin/chatbot/service/UserService.java
  com.ymin.chatbot.service.UserService
 com/ymin/chatbot/controller/QuestionController.java
  com.ymin.chatbot.controller.QuestionController
-com/ymin/chatbot/controller/ItemController.java
- com.ymin.chatbot.controller.ItemController
+com/ymin/chatbot/controller/LocationController.java
+ com.ymin.chatbot.controller.LocationController
