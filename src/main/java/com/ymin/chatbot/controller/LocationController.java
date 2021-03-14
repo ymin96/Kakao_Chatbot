@@ -374,10 +374,8 @@ public class LocationController {
 
         String userId = skill.getUserRequest().getUser().getId();
 
-        User user = userService.findUserById(userId);
-
-        if(userService.checkUserById(user.getId()))
-            userService.deleteUser(user.getId());
+        if(userService.checkUserById(userId))
+            userService.deleteUser(userId);
 
         SkillResponse skillResponse = new SkillResponse();
         skillResponse.makeSimpleText("모든 기록을 초기화 했습니다.");

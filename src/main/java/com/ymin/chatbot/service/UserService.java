@@ -13,7 +13,7 @@ public class UserService {
 
     public boolean checkUserById(String id){
         User user = userMapper.findUserById(id);
-        return user != null;
+        return (user != null);
     }
 
     public User findUserById(String id){

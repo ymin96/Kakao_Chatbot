@@ -2,27 +2,27 @@ com/ymin/chatbot/service/ItemService.java
  com.ymin.chatbot.service.ItemService
 com/ymin/chatbot/mapper/ItemMapper.java
  com.ymin.chatbot.mapper.ItemMapper
-com/ymin/chatbot/controller/LocationController.java
- com.ymin.chatbot.controller.LocationController
+com/ymin/chatbot/dto/SkillResponse.java
+ com.ymin.chatbot.dto.SkillResponse
 com/ymin/chatbot/mapper/UserMapper.java
  com.ymin.chatbot.mapper.UserMapper
-com/ymin/chatbot/controller/QuestionController.java
- com.ymin.chatbot.controller.QuestionController
+com/ymin/chatbot/dto/Item.java
+ com.ymin.chatbot.dto.Item
 com/ymin/chatbot/Application.java
  com.ymin.chatbot.Application
 com/ymin/chatbot/config/DatabaseConfiguration.java
  com.ymin.chatbot.config.DatabaseConfiguration
-com/ymin/chatbot/controller/ItemController.java
- com.ymin.chatbot.controller.ItemController
-com/ymin/chatbot/service/UserService.java
- com.ymin.chatbot.service.UserService
 com/ymin/chatbot/dto/User.java
  com.ymin.chatbot.dto.User
-com/ymin/chatbot/dto/Item.java
- com.ymin.chatbot.dto.Item
 com/ymin/chatbot/dto/Skill.java
  com.ymin.chatbot.dto.Skill
  com.ymin.chatbot.dto.Skill$Intent
  com.ymin.chatbot.dto.Skill$UserRequest
-com/ymin/chatbot/dto/SkillResponse.java
- com.ymin.chatbot.dto.SkillResponse
+com/ymin/chatbot/controller/LocationController.java
+ com.ymin.chatbot.controller.LocationController
+com/ymin/chatbot/service/UserService.java
+ com.ymin.chatbot.service.UserService
+com/ymin/chatbot/controller/QuestionController.java
+ com.ymin.chatbot.controller.QuestionController
+com/ymin/chatbot/controller/ItemController.java
+ com.ymin.chatbot.controller.ItemController
