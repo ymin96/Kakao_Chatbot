@@ -63,6 +63,8 @@ public class ItemController {
             return skillResponse.build();
         }
 
+        skillResponse.addQuickReplies("가방닫기", lastBlockId);
+
         skillResponse.makeCarousel(itemList);
         if(user.getYear() == 2014){
             for (int i = 0; i < itemList.size(); i++) {
@@ -75,13 +77,13 @@ public class ItemController {
                         skillResponse.addQuickReplies("쪽지1", 쪽지1_2014);
                         break;
                     case "쪽지2":
-                        skillResponse.addQuickReplies("쪽지2", 쪽지2_2014);
+                        skillResponse.addQuickReplies("색상표", 쪽지2_2014);
                         break;
                     case "쪽지3":
-                        skillResponse.addQuickReplies("쪽지3", 쪽지3_2014);
+                        skillResponse.addQuickReplies("쪽지2", 쪽지3_2014);
                         break;
                     case "쪽지4":
-                        skillResponse.addQuickReplies("쪽지4", 쪽지4_2014);
+                        skillResponse.addQuickReplies("쪽지3", 쪽지4_2014);
                         break;
                 }
             }
@@ -97,20 +99,17 @@ public class ItemController {
                         skillResponse.addQuickReplies("쪽지1", 쪽지1_2021);
                         break;
                     case "쪽지2":
-                        skillResponse.addQuickReplies("쪽지2", 쪽지2_2021);
+                        skillResponse.addQuickReplies("색상표", 쪽지2_2021);
                         break;
                     case "쪽지3":
-                        skillResponse.addQuickReplies("쪽지3", 쪽지3_2021);
+                        skillResponse.addQuickReplies("쪽지2", 쪽지3_2021);
                         break;
                     case "쪽지4":
-                        skillResponse.addQuickReplies("쪽지4", 쪽지4_2021);
+                        skillResponse.addQuickReplies("쪽지3", 쪽지4_2021);
                         break;
                 }
             }
         }
-
-
-        skillResponse.addQuickReplies("가방닫기", lastBlockId);
 
         return skillResponse.build();
     }
