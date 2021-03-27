@@ -320,7 +320,7 @@ public class SkillResponse {
 
     public static SkillResponse 녹음실_책상_신문_스크랩_초기_2014(){
         SkillResponse skillResponse = new SkillResponse();
-        skillResponse.makeSimpleImage("https://postfiles.pstatic.net/MjAyMTAzMTRfMTcz/MDAxNjE1NjY5NDczNjY4.FuHASAamFHJYnfGdnbJJEFJJFGUrPrfgLf8Z2qxbZQgg.wo6jEhLXV150pWqt_tl-PUHWOBkyO4ZJ0unRGj5m2Dgg.JPEG.arasarah/2014_%EB%85%B9%EC%9D%8C%EC%8B%A4_%EC%8B%A0%EB%AC%B8_%EC%8A%A4%ED%81%AC%EB%9E%A9.JPG?type=w773","이미지 오류");
+        skillResponse.makeSimpleImage("http://blog.naver.com/storyphoto/viewer.jsp?src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyMTAzMjdfODQg%2FMDAxNjE2ODIzOTk4MTY4.ru8F5f8dFFb7-vPxcZYR1QzfHDzI0AEmRDo1dPLA4p8g.8x0tQH7A-0d4q3wRjbKDpf3Km-VlKw0VmjQwKt9Jx-4g.JPEG.arasarah%2F2014_%25EB%2585%25B9%25EC%259D%258C%25EC%258B%25A4_%25EC%258B%25A0%25EB%25AC%25B8_%25EC%258A%25A4%25ED%2581%25AC%25EB%259E%25A9.JPG","이미지 오류");
         skillResponse.makeSimpleText("왜 이런 기사들을 모아 둔 거지? 어딘가 찜찜한 기분을 느끼며 파일을 덮었다.  ");
         skillResponse.addQuickReplies("돌아가자", 녹음실_책상_신문_스크랩_사이_2014);
         return skillResponse;
@@ -328,7 +328,7 @@ public class SkillResponse {
 
     public static SkillResponse 녹음실_책상_신문_스크랩_후기_2014(){
         SkillResponse skillResponse = new SkillResponse();
-        skillResponse.makeSimpleImage("https://postfiles.pstatic.net/MjAyMTAzMTRfMTcz/MDAxNjE1NjY5NDczNjY4.FuHASAamFHJYnfGdnbJJEFJJFGUrPrfgLf8Z2qxbZQgg.wo6jEhLXV150pWqt_tl-PUHWOBkyO4ZJ0unRGj5m2Dgg.JPEG.arasarah/2014_%EB%85%B9%EC%9D%8C%EC%8B%A4_%EC%8B%A0%EB%AC%B8_%EC%8A%A4%ED%81%AC%EB%9E%A9.JPG?type=w773","이미지 오류");
+        skillResponse.makeSimpleImage("http://blog.naver.com/storyphoto/viewer.jsp?src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyMTAzMjdfODQg%2FMDAxNjE2ODIzOTk4MTY4.ru8F5f8dFFb7-vPxcZYR1QzfHDzI0AEmRDo1dPLA4p8g.8x0tQH7A-0d4q3wRjbKDpf3Km-VlKw0VmjQwKt9Jx-4g.JPEG.arasarah%2F2014_%25EB%2585%25B9%25EC%259D%258C%25EC%258B%25A4_%25EC%258B%25A0%25EB%25AC%25B8_%25EC%258A%25A4%25ED%2581%25AC%25EB%259E%25A9.JPG","이미지 오류");
         skillResponse.makeSimpleText("왜 이런 기사들을 모아 둔 거지? 어딘가 찜찜한 기분을 느끼며 파일을 덮었다.  ");
         skillResponse.addQuickReplies("돌아가자", 녹음실_2014);
         return skillResponse;
@@ -548,7 +548,7 @@ public class SkillResponse {
 
     public static SkillResponse 녹음실_책상_신문_스크랩_초기_2021(){
         SkillResponse skillResponse = new SkillResponse();
-        skillResponse.makeSimpleImage("https://postfiles.pstatic.net/MjAyMTAzMTRfMTYw/MDAxNjE1NjY5NDEwNDg0.RdROClPoQeiLZ4miVZSR9YpfUumL4eNoQ9Ujwpdg4_0g.1VRgdRsSLSgFDF5n5LADV7-o3Fvc4ILDSI6juJs0SRog.JPEG.arasarah/2021_%EC%8B%A0%EB%AC%B8%EC%8A%A4%ED%81%AC%EB%9E%A9.jpg?type=w773","이미지 오류");
+        skillResponse.makeSimpleImage("http://blog.naver.com/storyphoto/viewer.jsp?src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyMTAzMjdfMTEx%2FMDAxNjE2ODI0MDc4MDM5.UI7ZkJIi7h9tijgvnj4jbbaMquiGDaFW6QQ3mu7Swkkg.Zuy1cTcjxwyf97Tasr2G_K6xfLbGo1x1rKvOi67ycxYg.JPEG.arasarah%2F2021_%25EC%258B%25A0%25EB%25AC%25B8%25EC%258A%25A4%25ED%2581%25AC%25EB%259E%25A9.jpg","이미지 오류");
         skillResponse.makeSimpleText("왜 이런 기사들을 모아 둔 거지? 어딘가 찜찜한 기분을 느끼며 파일을 덮었다.  ");
         skillResponse.addQuickReplies("돌아가자", 녹음실_책상_신문_스크랩_사이_2021);
         return skillResponse;
@@ -556,7 +556,7 @@ public class SkillResponse {
 
     public static SkillResponse 녹음실_책상_신문_스크랩_후기_2021(){
         SkillResponse skillResponse = new SkillResponse();
-        skillResponse.makeSimpleImage("https://postfiles.pstatic.net/MjAyMTAzMTRfMTYw/MDAxNjE1NjY5NDEwNDg0.RdROClPoQeiLZ4miVZSR9YpfUumL4eNoQ9Ujwpdg4_0g.1VRgdRsSLSgFDF5n5LADV7-o3Fvc4ILDSI6juJs0SRog.JPEG.arasarah/2021_%EC%8B%A0%EB%AC%B8%EC%8A%A4%ED%81%AC%EB%9E%A9.jpg?type=w773","이미지 오류");
+        skillResponse.makeSimpleImage("http://blog.naver.com/storyphoto/viewer.jsp?src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAyMTAzMjdfMTEx%2FMDAxNjE2ODI0MDc4MDM5.UI7ZkJIi7h9tijgvnj4jbbaMquiGDaFW6QQ3mu7Swkkg.Zuy1cTcjxwyf97Tasr2G_K6xfLbGo1x1rKvOi67ycxYg.JPEG.arasarah%2F2021_%25EC%258B%25A0%25EB%25AC%25B8%25EC%258A%25A4%25ED%2581%25AC%25EB%259E%25A9.jpg","이미지 오류");
         skillResponse.makeSimpleText("왜 이런 기사들을 모아 둔 거지? 어딘가 찜찜한 기분을 느끼며 파일을 덮었다.  ");
         skillResponse.addQuickReplies("돌아가자", 녹음실_2021);
         return skillResponse;
