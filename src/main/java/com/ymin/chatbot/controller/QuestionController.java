@@ -70,8 +70,8 @@ public class QuestionController {
             case SkillResponse.대표실_서류가방_2014: // 서류가방
                 return  SkillResponse.대표실_서류가방_실패_2014().build();
             case SkillResponse.대표실_컴퓨터_2014: // 컴퓨터
-                if(!itemService.findItem(user.getId(), "쪽지3")){
-                    itemService.insertItem(new Item(user.getId(), "쪽지3", "https://postfiles.pstatic.net/MjAyMTAzMTNfMjc1/MDAxNjE1NjQ1OTE1OTk5.riMCRadc2zopnZpA2hcBh8IKfCQEbWflUcy-iPKJIW8g.e9T4PHu6W121s7ryg8L4zsWwWcR7Eh32UaBA5hOxPBwg.JPEG.arasarah/9692B73A-AD9C-45AE-AD30-AFE74EC252F1.jpeg?type=w773"));
+                if(!itemService.findItem(user.getId(), "쪽지2")){
+                    itemService.insertItem(new Item(user.getId(), "쪽지2", "https://postfiles.pstatic.net/MjAyMTAzMTNfMjc1/MDAxNjE1NjQ1OTE1OTk5.riMCRadc2zopnZpA2hcBh8IKfCQEbWflUcy-iPKJIW8g.e9T4PHu6W121s7ryg8L4zsWwWcR7Eh32UaBA5hOxPBwg.JPEG.arasarah/9692B73A-AD9C-45AE-AD30-AFE74EC252F1.jpeg?type=w773"));
                     return SkillResponse.대표실_컴퓨터_실패_2014_초기().build();
                 }
                 return (user.isQ7() ? SkillResponse.대표실_컴퓨터_성공_2014().build() : SkillResponse.대표실_컴퓨터_실패_2014().build());
@@ -123,8 +123,8 @@ public class QuestionController {
             case SkillResponse.대표실_책상서랍_2021: // 책상서랍
                 return  SkillResponse.대표실_책상서랍_실패_2021().build();
             case SkillResponse.대표실_컴퓨터_2021: // 컴퓨터
-                if(!itemService.findItem(user.getId(), "쪽지3")){
-                    itemService.insertItem(new Item(user.getId(), "쪽지3", "https://postfiles.pstatic.net/MjAyMTAzMTNfMjA5/MDAxNjE1NjQ1OTE2NTE4.-0UpzAYJrzBKEC-7qbN8KCPKtCMdjRE-_nYGoeOuDkQg.VLZAPfZLRqW057bez-VDa2zVbIGhJxY0HQ9qor1T7q0g.JPEG.arasarah/16E0203C-569F-475C-919C-74A84B062393.jpeg?type=w773"));
+                if(!itemService.findItem(user.getId(), "쪽지2")){
+                    itemService.insertItem(new Item(user.getId(), "쪽지2", "https://postfiles.pstatic.net/MjAyMTAzMTNfMjA5/MDAxNjE1NjQ1OTE2NTE4.-0UpzAYJrzBKEC-7qbN8KCPKtCMdjRE-_nYGoeOuDkQg.VLZAPfZLRqW057bez-VDa2zVbIGhJxY0HQ9qor1T7q0g.JPEG.arasarah/16E0203C-569F-475C-919C-74A84B062393.jpeg?type=w773"));
                     return SkillResponse.대표실_컴퓨터_실패_2021_초기().build();
                 }
                 return (user.isQ7() ? SkillResponse.대표실_컴퓨터_성공_2021().build() : SkillResponse.대표실_컴퓨터_실패_2021().build());

@@ -76,13 +76,13 @@ public class ItemController {
                     case "쪽지1":
                         skillResponse.addQuickReplies("쪽지1", 쪽지1_2014);
                         break;
-                    case "쪽지2":
+                    case "색상표":
                         skillResponse.addQuickReplies("색상표", 쪽지2_2014);
                         break;
-                    case "쪽지3":
+                    case "쪽지2":
                         skillResponse.addQuickReplies("쪽지2", 쪽지3_2014);
                         break;
-                    case "쪽지4":
+                    case "쪽지3":
                         skillResponse.addQuickReplies("쪽지3", 쪽지4_2014);
                         break;
                 }
@@ -98,13 +98,13 @@ public class ItemController {
                     case "쪽지1":
                         skillResponse.addQuickReplies("쪽지1", 쪽지1_2021);
                         break;
-                    case "쪽지2":
+                    case "색상표":
                         skillResponse.addQuickReplies("색상표", 쪽지2_2021);
                         break;
-                    case "쪽지3":
+                    case "쪽지2":
                         skillResponse.addQuickReplies("쪽지2", 쪽지3_2021);
                         break;
-                    case "쪽지4":
+                    case "쪽지3":
                         skillResponse.addQuickReplies("쪽지3", 쪽지4_2021);
                         break;
                 }
@@ -140,15 +140,15 @@ public class ItemController {
                 return SkillResponse.녹음실_책상_신문_스크랩_후기_2014().build();
             }
             case SkillResponse.녹음실_녹음부스_2014: {
-                if (!itemService.findItem(user.getId(), "쪽지2")) {
-                    itemService.insertItem(new Item(user.getId(), "쪽지2", "https://postfiles.pstatic.net/MjAyMTAyMThfMTQy/MDAxNjEzNjU2NjIwMTU2.KzuevKXVDOZzVRZpmVFYCfL80StPUO7K5NNA0HOV-2Yg.52ds02bq2WqtR1NMYq_gAVlGYsJmna2_fsc9sTOTBEgg.JPEG.arasarah/2014,_2021_%EB%85%B9%EC%9D%8C%EC%8B%A4_%EC%AA%BD%EC%A7%80.JPG?type=w773"));
+                if (!itemService.findItem(user.getId(), "색상표")) {
+                    itemService.insertItem(new Item(user.getId(), "색상표", "https://postfiles.pstatic.net/MjAyMTAyMThfMTQy/MDAxNjEzNjU2NjIwMTU2.KzuevKXVDOZzVRZpmVFYCfL80StPUO7K5NNA0HOV-2Yg.52ds02bq2WqtR1NMYq_gAVlGYsJmna2_fsc9sTOTBEgg.JPEG.arasarah/2014,_2021_%EB%85%B9%EC%9D%8C%EC%8B%A4_%EC%AA%BD%EC%A7%80.JPG?type=w773"));
                     return SkillResponse.녹음실_녹음부스_초기_2014().build();
                 }
                 return SkillResponse.녹음실_녹음부스_후기_2014().build();
             }
             case SkillResponse.대표실_달력_2014: {
-                if (!itemService.findItem(user.getId(), "쪽지4")) {
-                    itemService.insertItem(new Item(user.getId(), "쪽지4", "https://postfiles.pstatic.net/MjAyMTAzMTNfMTQ2/MDAxNjE1NjQ1OTE1OTkx.32Emoa_LGRnnwWwPJL4NdEGu8stdCRgVjpxpF3-Fjogg.2ct0VYZSmPWFrN6s0kHTjuIWPd20ZIcAxPRAd51zVkQg.JPEG.arasarah/2D4B67E8-216A-4D36-A8EA-B219F9C1E12B.jpeg?type=w773"));
+                if (!itemService.findItem(user.getId(), "쪽지3")) {
+                    itemService.insertItem(new Item(user.getId(), "쪽지3", "https://postfiles.pstatic.net/MjAyMTAzMTNfMTQ2/MDAxNjE1NjQ1OTE1OTkx.32Emoa_LGRnnwWwPJL4NdEGu8stdCRgVjpxpF3-Fjogg.2ct0VYZSmPWFrN6s0kHTjuIWPd20ZIcAxPRAd51zVkQg.JPEG.arasarah/2D4B67E8-216A-4D36-A8EA-B219F9C1E12B.jpeg?type=w773"));
                     return SkillResponse.대표실_달력_초기_2014().build();
                 }
                 return SkillResponse.대표실_달력_후기_2014().build();
@@ -184,15 +184,15 @@ public class ItemController {
                 return SkillResponse.녹음실_책상_신문_스크랩_후기_2021().build();
             }
             case SkillResponse.녹음실_녹음부스_2021: {
-                if (!itemService.findItem(user.getId(), "쪽지2")) {
-                    itemService.insertItem(new Item(user.getId(), "쪽지2", "https://postfiles.pstatic.net/MjAyMTAyMThfMTQy/MDAxNjEzNjU2NjIwMTU2.KzuevKXVDOZzVRZpmVFYCfL80StPUO7K5NNA0HOV-2Yg.52ds02bq2WqtR1NMYq_gAVlGYsJmna2_fsc9sTOTBEgg.JPEG.arasarah/2014,_2021_%EB%85%B9%EC%9D%8C%EC%8B%A4_%EC%AA%BD%EC%A7%80.JPG?type=w773"));
+                if (!itemService.findItem(user.getId(), "색상표")) {
+                    itemService.insertItem(new Item(user.getId(), "색상표", "https://postfiles.pstatic.net/MjAyMTAyMThfMTQy/MDAxNjEzNjU2NjIwMTU2.KzuevKXVDOZzVRZpmVFYCfL80StPUO7K5NNA0HOV-2Yg.52ds02bq2WqtR1NMYq_gAVlGYsJmna2_fsc9sTOTBEgg.JPEG.arasarah/2014,_2021_%EB%85%B9%EC%9D%8C%EC%8B%A4_%EC%AA%BD%EC%A7%80.JPG?type=w773"));
                     return SkillResponse.녹음실_녹음부스_초기_2021().build();
                 }
                 return SkillResponse.녹음실_녹음부스_후기_2021().build();
             }
             case SkillResponse.대표실_달력_2021: {
-                if (!itemService.findItem(user.getId(), "쪽지4")) {
-                    itemService.insertItem(new Item(user.getId(), "쪽지4", "https://postfiles.pstatic.net/MjAyMTAzMTNfMzMg/MDAxNjE1NjQ1OTE2NDY0.nI_53wvkXbOHVMMdspwPEshMOd_tK0I-yfJOfOTGoacg.eprA1HKd7Yvd2VaVd1rYzsZKeEq7MdxtsYu8eMbRTMgg.JPEG.arasarah/C77BA9DE-DFC8-46EE-B8D0-945B0CAFF196.jpeg?type=w773"));
+                if (!itemService.findItem(user.getId(), "쪽지3")) {
+                    itemService.insertItem(new Item(user.getId(), "쪽지3", "https://postfiles.pstatic.net/MjAyMTAzMTNfMzMg/MDAxNjE1NjQ1OTE2NDY0.nI_53wvkXbOHVMMdspwPEshMOd_tK0I-yfJOfOTGoacg.eprA1HKd7Yvd2VaVd1rYzsZKeEq7MdxtsYu8eMbRTMgg.JPEG.arasarah/C77BA9DE-DFC8-46EE-B8D0-945B0CAFF196.jpeg?type=w773"));
                     return SkillResponse.대표실_달력_초기_2021().build();
                 }
                 return SkillResponse.대표실_달력_후기_2021().build();
