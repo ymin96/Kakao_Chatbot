@@ -2,7 +2,7 @@
 
 application.properties
 .gradle/6.8/vcsMetadata-1/
-build/generated/
+build/
 src/test/
 .gradle
 .idea
