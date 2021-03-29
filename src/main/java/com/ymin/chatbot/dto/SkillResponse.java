@@ -516,7 +516,7 @@ public class SkillResponse {
         SkillResponse skillResponse = new SkillResponse();
         skillResponse.makeSimpleText("꺼져 있는 컴퓨터를 켰다. 딱히 비밀번호는 걸어 놓지 않은 것 같다. 나는 온갖 폴더들을 하나씩 뒤지기 시작했다.  10여분 가량의 사투 끝에 수상한 폴더 하나를 발견했다. ‘진실’이라는 폴더를 누르니 비밀번호를 입력하라고 한다. ");
         skillResponse.makeSimpleImage("https://postfiles.pstatic.net/MjAyMTAyMTlfNjMg/MDAxNjEzNjc2MjM0OTQ2.dCypSmYsHl8loX9JfJzJKt5GuWpJvi2AjlcagzX9BoMg.qjvF-H39ql2LUK1J957db7jiAUdbEGnjHJ8NZAY96Xcg.JPEG.arasarah/2021_%EB%8C%80%ED%91%9C%EC%8B%A4_%EC%BB%B4%ED%93%A8%ED%84%B0_%EB%AC%B8%EC%A0%9C.JPG?type=w773","이미지 오류");
-        skillResponse.addQuickReplies("돌아가자", 대표실_2014);
+        skillResponse.addQuickReplies("돌아가자", 대표실_2021);
         return skillResponse;
     }
 
